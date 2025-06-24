@@ -1,0 +1,9 @@
+// Default theme
+@use '@splidejs/vue-splide/css' as *;
+
+// or other themes
+@use '@splidejs/vue-splide/css/skyblue' as *;
+@use '@splidejs/vue-splide/css/sea-green' as *;
+
+// or only core styles
+@use '@splidejs/vue-splide/css/core' as *;

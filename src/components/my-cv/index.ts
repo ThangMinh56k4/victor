@@ -1,0 +1,5 @@
+export { default as HelloIam } from './HelloIam.vue'
+export { default as AboutMe } from './AboutMe.vue'
+export { default as WhatIDo } from './WhatIDo.vue'
+export { default as FeaturedProjects } from './FeaturedProjects.vue'
+export { default as MyExpertise } from './Expertise/index.vue'

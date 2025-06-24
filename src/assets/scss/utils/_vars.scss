@@ -1,0 +1,26 @@
+$black-color: #000000;
+$primary-color: #0bceaf;
+$primary-100-color: #0a9f8c;
+$white-color: #ffffff;
+$white-transparent-10-color: hsla(0, 0%, 100%, 0.1);
+$black-100-color: #333333;
+$black-200-color: #4d4d4d;
+$black-300-color: #666666;
+$black-700-color: #cccccc;
+$gray-color: #f2f2f2;
+$text-color: $black-color;
+
+$header-height: 750px;
+$max-width-content: 1200px;
+$min-width-content: 1024px;
+
+$box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+$box-shadow-lg: 0px 10px 20px 4px rgba(0, 0, 0, 0.08);
+
+$breakpoints: (
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'lx': 1024px,
+  '2xl': 1200px,
+);

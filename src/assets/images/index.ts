@@ -1,0 +1,7 @@
+export { default as AzoomImg } from './azoom.jpg'
+export { default as GopageImg } from './gopage.png'
+export { default as GostreamImg } from './gostream.jpg'
+export { default as NalImg } from './nal.jpg'
+export { default as TekupImg } from './tekup.jpg'
+export { default as vinhUniversityImg } from './vinh-university.jpeg'
+export { default as PiconImg } from './picon.jpg'

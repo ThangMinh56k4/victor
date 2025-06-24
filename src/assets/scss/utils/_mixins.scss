@@ -1,0 +1,39 @@
+@use 'sass:map';
+@use './vars' as vars;
+
+@mixin after-background-cover($image-url: '@/assets/images/thumbnail-bg.jpeg') {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url($image-url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@mixin page-title($margin-bottom: 3rem) {
+  font-size: 2rem;
+  font-weight: 700;
+  color: vars.$black-100-color;
+  margin-bottom: $margin-bottom;
+}
+
+@mixin truncate-multiline($line-count) {
+  /*! autoprefixer: off */
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $line-count;
+  -webkit-box-orient: vertical;
+}
+
+@mixin mediaquery-down($breakpoint: sm) {
+  @media only screen and (max-width: #{map.get(vars.$breakpoints, $breakpoint)}) {
+    @content;
+  }
+}
